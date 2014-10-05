@@ -1,0 +1,74 @@
+	body {
+	text-align: center;
+	background-image: url("wood.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:black;
+	font-family: Comic sans ms;
+	font-size: 30px
+}
+	
+	.one{
+		float: right;
+		background: none;
+		margin: 0px;
+		padding: 0px;
+}
+
+	a{
+			color: white;
+}
+
+	img {
+		max-width: 100%
+		height: auto;
+		margin: 40px 60px 0px 60px;
+		padding: 10px 10px 10px 10px;
+		border: 7px ;
+		border-radius: 20px;
+		background-color: rgb(186, 81, 0);
+}
+
+	p {
+		font-size: 30;
+		font-family:arial;
+		color: black;
+		padding: 20px 20px 10px 10px;
+		margin: 40px 0px 0px 0px;
+	}
+
+	h4{
+		color: rgb(186, 81, 0);
+		padding: 20px 20px 10px 10px;
+		margin: 40px 0px 0px 0px;
+}
+	div {
+		height: 200px;
+		background: url(wood2.jpg);
+		background-size: cover;
+		margin: 0 auto;
+	}
+
+	li {
+		display:inline;
+	}
+	
+	ul{
+padding: 0px 0px 10px 10px;
+background-color: black;
+font-size: 30px;
+font-family:Impact;
+text-align: left;
+	}
+
+	a{
+
+		text-decoration: none; 
+		color: rgb(186, 81, 0);
+}
+
+	h2{
+		font-size: 10;
+		color: black;
+}
