@@ -1,97 +1,48 @@
 <!DOCTYPE html>
-
-
+<html>
 <head>
-			<title>My Bio Bryan-Hernandez</title>
-			<link rel="stylesheet" href="mystyle.css">
-			<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-			<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-			<script type="text/javascript" src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Font CDN -->
+<link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="main.css">
+
+	<title>Naruto Trivia</title>
 </head>
+<body class="light">
+	<header>
+		<h1 class="title">Naruto Trivia</h1>
+	</header>
+	<div id="Questions">
+		<h3 class="Questions"></h3>
+	</div>
+	<div>
+		<form>
+		  <p id="value">Please select your answer:</p>
+		  <input type="radio" name="answers" value="1">
+		  <label id="radio1">Answer 1</label>
+		  <input type="radio" name="answers" value="2">
+		  <label id="radio2">Answer 2</label>
+		  <input type="radio" name="answers" value="3">
+		  <label id="radio3">Answer 3</label>
+		  <input type="radio" name="answers" value="4">
+		  <label id="radio4">Answer 4</label>
 
-
-<body>
-
-<img class="light" src="back.jpg">
-
-	<div class=topPictures>
-			<figure>
-								<figcaption class='cap4'>Keep</figcaption>	
-    							<figcaption class='cap5'>Moving</figcaption>	
-    					        <figcaption class='cap6'>Forward</figcaption>
-    										
-						
-    						<img class="img7" src='1.jpg' height="220" width="280" alt='missing' />
-   							<img  class='img8'src='chunky.jpg' height="220" width="280" alt='missing' />
-    						<img  class='img9'src='2.jpg' height="220" width="280" alt='missing'/>
-    							
-    							
-			</figure>
-</div>
-
-
-
-
-			<header>
-					
-								
-						
-								<h1> Bryan Hernandez </h1>
-			</header>
-<embed src="John Legend - All of Me.mp3" autostart="false" volume="100">
-	
-		
-
-		<div class='caroussel'>
-			<img class='img1' src="bryan.jpg" height="300px" width="280">
-			<img class='img2' src="puppy.jpg" height="300px" width="280">
-			<img class='img3' src="4.jpg" height="300px" width="280">
-		</div>
-
-
-		<div class="cbutton">
-			<button class='hi'>  BACK </button>
-			<button class='next'>  NEXT </button>
-
-		</div>
-	
-			<h2><font size="100">About Me</font></h2>
-			<p> My whole life circles around technology, and conversations with my dad make me realize just how much technology is surrounding me. With this in mind deep down I knew I would end up studying computer science, engineering, or some sort of  applied science. I cant shake off the interest Ive been hooked on since I was a kid. I know I have the potential to do something great, and I am striving to reach those heights. </p>
-			<h2>Experience</h2>
-			<p> I am good at fixing, Troubleshooting and I know a bit about networks, I have even built a couple computers myself , But Coming into this project Creating a my bio page I had never touched HTML, I am not easily discouraged though so there was a few sleepless nights. Going through the dash tutorials through the night and into the next day. I learned more in those 10 hour studying shifts than I ever imagined I would. Especially because I was working together with 2 other people that had the same goal in mind. 
-</p>
-			<h2>Contact Me</h2>
-			<p> You can contact me @ <br><br>
-				Cell:&nbsp;&nbsp;(408)762-8840 <br> <br>
-				Email:&nbsp;&nbsp;BryanHL.Mail@gmail.com<br><br>
-
-
-			</p>
-			
-
-	<div class=bottomPictures>
-			<figure>
-						
-						
-						
-    						<img class="img4" src='starbucks.png' height="220" width="280" alt='missing' />
-   							<img  class='img5'src='soccer.jpg' height="220" width="280" alt='missing' />
-    						<img  class='img6'src='chipotle.jpg' height="220" width="280" alt='missing'/>
-    							
-    							<figcaption class='cap1'>Starbucks!</figcaption>	
-    							<figcaption class='cap2'>Soccer!</figcaption>	
-    					        <figcaption class='cap3'>Chipotle!</figcaption>
-    										
-			</figure>
-
-</div>
-<object class="video2" width="560" height="315" 
-data="http://www.youtube.com/embed/CNC26Rh4AE4">  
-</object>
-
-<object class="video1" width="560" height="315"
-data="http://www.youtube.com/embed/8QlvQC4MXxs">
-</object>
-
-
-</body> 
+		  <br> 
+		  <button class="btn btn-dark" type="button" onclick="nextQuestion(); ">Submit</button>
+		</form>
+	</div>
+	<div id="result">
+	</div>
+	<div id="answerBoard"></div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

@@ -1,0 +1,20 @@
+body {
+	background-color: lightgray;
+	margin-left: 20%;
+	margin-right: 15%;
+	margin-top: 5%;
+}
+
+.title{
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+
+.question{
+	font-family: 'Long Cang', cursive;
+
+}
+
+.answerBoard {
+	margin-top: 500px;
+}
